@@ -6,6 +6,8 @@ from tkinter import filedialog, messagebox, Text, Scrollbar, VERTICAL, END
 from PIL import ImageGrab
 import threading
 
+
+
 # Настройка темы (светлая/тёмная)
 def update_theme():
     if theme_switch.get():
